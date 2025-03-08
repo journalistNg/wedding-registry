@@ -97,6 +97,16 @@ const WeddingRegistry = () => {
       claimed: false,
       claimedBy: ""
     },
+    {
+  id: 4, // Use the next available ID number
+  name: "Toshiba Table Blender",
+  price: "159.00", // Current price from Shopee (you may need to update this)
+  link: "https://shopee.com.my/Toshiba-BL-60PHNMY-1.5L-Table-Blender-Blender-(600W)-i.280909231.3542476064",
+  image: "https://down-my.img.susercontent.com/file/7cba3130fe2a289d7f5065d1177a79ce.webp",
+  description: "Toshiba BL-60PHNMY 1.5L Table Blender (600W)",
+  claimed: false,
+  claimedBy: ""
+    },
   ];
 
   const [gifts, setGifts] = useState(initialGifts);
